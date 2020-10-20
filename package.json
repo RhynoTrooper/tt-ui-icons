@@ -1,0 +1,27 @@
+{
+  "name": "tt-ui-icons",
+  "version": "1.0.0",
+  "description": "Icon Server for TroopTravel Applications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhynoTrooper/tt-ui-icons.git"
+  },
+  "author": "Rhyno Janse van Rensburg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RhynoTrooper/tt-ui-icons/issues"
+  },
+  "homepage": "https://github.com/RhynoTrooper/tt-ui-icons#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
